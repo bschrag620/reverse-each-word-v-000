@@ -3,6 +3,6 @@ def reverse_each_word(sentence)
   reverse_array = []
   array.collect do | word |
     word.reverse
-  end
+  end.join(' ')
   #reverse_array.join(' ')
 end
